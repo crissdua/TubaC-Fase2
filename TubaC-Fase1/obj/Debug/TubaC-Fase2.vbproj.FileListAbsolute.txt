@@ -1,0 +1,7 @@
+C:\Users\Cristhiam\Documents\Visual Studio 2015\Projects\TubaC-Fase2\TubaC-Fase1\bin\Debug\TubaC-Fase1.exe.config
+C:\Users\Cristhiam\Documents\Visual Studio 2015\Projects\TubaC-Fase2\TubaC-Fase1\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\Cristhiam\Documents\Visual Studio 2015\Projects\TubaC-Fase2\TubaC-Fase1\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\Cristhiam\Documents\Visual Studio 2015\Projects\TubaC-Fase2\TubaC-Fase1\obj\Debug\TubaC-Fase2.vbproj.ResolveComReference.cache
+C:\Users\Cristhiam\Documents\Visual Studio 2015\Projects\TubaC-Fase2\TubaC-Fase1\obj\Debug\TubaC-Fase1.exe
+C:\Users\Cristhiam\Documents\Visual Studio 2015\Projects\TubaC-Fase2\TubaC-Fase1\obj\Debug\TubaC-Fase1.xml
+C:\Users\Cristhiam\Documents\Visual Studio 2015\Projects\TubaC-Fase2\TubaC-Fase1\obj\Debug\TubaC-Fase1.pdb
