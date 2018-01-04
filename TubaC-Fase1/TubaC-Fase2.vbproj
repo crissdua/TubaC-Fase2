@@ -72,10 +72,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Batchs.Designer.vb">
-      <DependentUpon>Batchs.vb</DependentUpon>
+    <Compile Include="BatchsFase1.Designer.vb">
+      <DependentUpon>BatchsFase1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Batchs.vb">
+    <Compile Include="BatchsFase1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchsFase2.Designer.vb">
+      <DependentUpon>BatchsFase2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BatchsFase2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Conexion.vb" />
@@ -85,10 +91,16 @@
     <Compile Include="cParametros.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPrincipal.Designer.vb">
-      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    <Compile Include="FrmFase1.Designer.vb">
+      <DependentUpon>FrmFase1.vb</DependentUpon>
     </Compile>
-    <Compile Include="FrmPrincipal.vb">
+    <Compile Include="FrmFase1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFase2.Designer.vb">
+      <DependentUpon>FrmFase2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFase2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ItemsBox.Designer.vb">
@@ -104,6 +116,14 @@
       <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MDI_F.Designer.vb">
+      <DependentUpon>MDI_F.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDI_F.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\BatchSubDET.vb" />
+    <Compile Include="Modelos\BatchsubENC.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -127,20 +147,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Batchs.resx">
-      <DependentUpon>Batchs.vb</DependentUpon>
+    <EmbeddedResource Include="BatchsFase1.resx">
+      <DependentUpon>BatchsFase1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchsFase2.resx">
+      <DependentUpon>BatchsFase2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="cParametros.resx">
       <DependentUpon>cParametros.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPrincipal.resx">
-      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    <EmbeddedResource Include="FrmFase1.resx">
+      <DependentUpon>FrmFase1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFase2.resx">
+      <DependentUpon>FrmFase2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ItemsBox.resx">
       <DependentUpon>ItemsBox.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI_F.resx">
+      <DependentUpon>MDI_F.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
